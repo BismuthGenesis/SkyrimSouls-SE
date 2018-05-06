@@ -1154,7 +1154,7 @@ namespace SkyrimSouls
 		RELOC_GLOBAL_VAL(g_gameSettingCollection, "48 8B 0D ? ? ? ? 48 8B 01 4C 8B C7 49 8B D6", 0, 3, 7);
 		RELOC_GLOBAL_VAL(g_thePlayer, "48 3B 3D ? ? ? ? 74 69", 0, 3, 7);
 		RELOC_GLOBAL_VAL(g_menuManager, "48 8B 05 ? ? ? ? 83 B8 ? ? ? ? ? 77 6F 8B 55 B0", 0, 3, 7);
-		RELOC_GLOBAL_VAL(g_main, "48 8B 0D ? ? ? ? 3B 41 20 0F 85 ? ? ? ?", 0, 3, 7);
+		//RELOC_GLOBAL_VAL(g_main, "48 8B 0D ? ? ? ? 3B 41 20 0F 85 ? ? ? ?", 0, 3, 7);
 		RELOC_GLOBAL_VAL(g_uiMessageManager, "48 8B 0D ? ? ? ? E8 ? ? ? ? EB 25", 0, 3, 7);
 		RELOC_GLOBAL_VAL(g_uiStringHolder, "48 8B 0D ? ? ? ? E8 ? ? ? ? EB 25", -0x14, 3, 7);
 		RELOC_GLOBAL_VAL(g_playerCamera, "48 8B 0D ? ? ? ? E8 ? ? ? ? 40 B6 01 48 8B 87 ? ? ? ?", 0, 3, 7);
